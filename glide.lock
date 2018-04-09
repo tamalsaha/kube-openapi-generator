@@ -1,5 +1,5 @@
-hash: 15d456fad7485dc2892bb3ff84ba2946fd724a81290a8633a7a0c6d3df3eb787
-updated: 2018-04-08T23:35:12.015342663-07:00
+hash: 1e04823c655e5c40b80a5b40e546f073bdd14072c713b648ae1ef678d4b3451e
+updated: 2018-04-09T01:50:33.481745545-07:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -14,12 +14,13 @@ imports:
   subpackages:
   - apiextensions/v1beta1
 - name: github.com/appscode/stash
-  version: 5cd3fbb95b147c81282acf56ba601293dde90473
+  version: 9ad3d0985e4aa8ac73fd831e3e80bd71c65e574b
   subpackages:
   - apis/repositories
   - apis/repositories/install
   - apis/repositories/v1alpha1
   - apis/stash
+  - apis/stash/install
   - apis/stash/v1alpha1
 - name: github.com/beorn7/perks
   version: 3ac7bf7a47d159a033b107610db8a1b6575507a4
@@ -149,6 +150,10 @@ imports:
   - OpenAPIv2
   - compiler
   - extensions
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 0a192a193177452756c362c20087ddafcf6829c4
 - name: github.com/gregjones/httpcache
   version: 787624de3eb7bd915c329cba748687a3b22666a6
   subpackages:
@@ -247,6 +252,10 @@ imports:
   - lex/httplex
   - trace
   - websocket
+- name: golang.org/x/oauth2
+  version: a6bd8cefa1811bd24b86f8902872e4e8225f74c4
+  subpackages:
+  - internal
 - name: golang.org/x/sys
   version: 95c6576299259db960f6c5b9b69ea52422860fce
   subpackages:
@@ -266,6 +275,16 @@ imports:
   - unicode/bidi
   - unicode/norm
   - width
+- name: google.golang.org/appengine
+  version: 4f7eeb5305a4ba1966344836ba4af9996b7b4e05
+  subpackages:
+  - internal
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
 - name: google.golang.org/genproto
   version: 09f6ed296fc66555a25fe4ce95173148778dfa85
   subpackages:
@@ -607,4 +626,12 @@ imports:
   version: 925c127ec6b946659ad0fd596fa959be43f0cc05
   subpackages:
   - pkg/util/hash
-testImports: []
+testImports:
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 12b6f73e6084dad08a7c6e575284b177ecafbc71
+  subpackages:
+  - assert
