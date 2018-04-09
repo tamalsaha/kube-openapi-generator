@@ -1,0 +1,26 @@
+package: github.com/tamalsaha/kube-openapi-generator
+import:
+- package: github.com/appscode/stash
+  version: openapi
+- package: k8s.io/api
+  version: kubernetes-1.9.0
+- package: k8s.io/apiextensions-apiserver
+  version: kubernetes-1.9.0
+- package: k8s.io/apimachinery
+  version: kubernetes-1.9.0
+- package: k8s.io/apiserver
+  version: kubernetes-1.9.0
+- package: k8s.io/client-go
+  version: v6.0.0
+- package: k8s.io/kubernetes
+  version: v1.9.0
+- package: github.com/prometheus/common
+  version: 3233b24a36715a2fe36d162260457857a56d672d
+- package: github.com/sirupsen/logrus
+  version: v1.0.3
+- package: github.com/cpuguy83/go-md2man
+  version: v1.0.4
+- package: github.com/appscode/kutil
+  version: release-6.0
+- package: github.com/appscode/kubernetes-webhook-util
+  version: release-6.0
