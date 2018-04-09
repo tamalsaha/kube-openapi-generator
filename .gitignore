@@ -31,3 +31,4 @@ test/e2e/report.xml
 apiserver.local.config/
 .markdownlint.json
 coverage.txt
+hack/swagger-codegen/
