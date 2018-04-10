@@ -29,5 +29,5 @@ java -jar ./hack/swagger-codegen/modules/swagger-codegen-cli/target/swagger-code
   -o java-client
 ```
 
-Known Issues:
-https://github.com/kubernetes-client/gen/issues/59
+### Known Issues:
+- https://github.com/kubernetes-client/gen/issues/59
