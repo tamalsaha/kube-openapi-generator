@@ -1,0 +1,10 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.apis_api import ApisApi
+from swagger_client.api.repositories_stash_appscode_com_api import RepositoriesStashAppscodeComApi
+from swagger_client.api.repositories_stash_appscode_com_v1alpha1_api import RepositoriesStashAppscodeComV1alpha1Api
+from swagger_client.api.stash_appscode_com_api import StashAppscodeComApi
+from swagger_client.api.stash_appscode_com_v1alpha1_api import StashAppscodeComV1alpha1Api
