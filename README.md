@@ -30,4 +30,4 @@ java -jar ./hack/swagger-codegen/modules/swagger-codegen-cli/target/swagger-code
 ```
 
 ### Known Issues:
-- https://github.com/kubernetes-client/gen/issues/59
+- https://github.com/kubernetes-client/gen/issues/59#issuecomment-381395227
