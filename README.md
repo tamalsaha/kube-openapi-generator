@@ -1,5 +1,7 @@
 # kube-openapi-generator
 
+**This is now maintained as library https://github.com/appscode/kutil/tree/release-7.0/openapi**
+
 ## Generate swagger.json
 
 ```console
